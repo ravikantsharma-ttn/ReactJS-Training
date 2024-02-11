@@ -1,0 +1,33 @@
+body{
+    background-color: crimson;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#salutation{
+    width: 100%;
+    position:absolute;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+#time{
+    width: 100%;
+    top: 200px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+    color: darkturquoise;
+    font-size: 110px;
+    font-weight: bold;
+}
+
+#date{
+    width: 100%;
+    top: 400px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}

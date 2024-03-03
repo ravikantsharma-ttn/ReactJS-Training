@@ -1,0 +1,55 @@
+body{
+  background-color: azure;
+}
+.product{
+  border: 1px solid black;
+  width: 150px;
+  height: 170px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgb(242, 213, 169);
+}
+
+.product img{
+  height: 50px;
+  width: 50px;
+}
+
+.product p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.product button{
+  background-color: rgb(140, 127, 238);
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+}
+.storeHeader{
+  display: flex;
+  background-color: rgb(174, 211, 244);
+  margin: 0;
+}
+.storeHeader .storeName{
+  padding-left: 10px;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.storeHeader .cart{
+  text-align: bottom;
+  font-size: 20px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
